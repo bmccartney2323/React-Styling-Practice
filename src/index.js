@@ -10,7 +10,7 @@ import ReactDOM from "react-dom";
 
 const dHour = new Date().getHours();
 const customStyle = {
-  color: "red",
+  color: "red"
 };
 
 if (dHour < 12) {
@@ -25,6 +25,8 @@ if (dHour < 12) {
 }
 
 ReactDOM.render(
-  <h1 className="heading" style={customStyle}>Good {dTime}!</h1>,
+  <h1 className="heading" style={customStyle}>
+    Good {dTime}!
+  </h1>,
   document.getElementById("root")
 );
