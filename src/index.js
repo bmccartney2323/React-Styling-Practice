@@ -25,6 +25,6 @@ if (dHour < 12) {
 }
 
 ReactDOM.render(
-  <h1 style={customStyle}>Good {dTime}!</h1>,
+  <h1 className="heading" style={customStyle}>Good {dTime}!</h1>,
   document.getElementById("root")
 );
